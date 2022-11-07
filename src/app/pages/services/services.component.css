@@ -1,0 +1,246 @@
+.our-services-banner-wrapper
+{
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url("/assets/images/banner.jpg");
+}
+
+.our-services-banner
+{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.banner-title
+{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.our-services-screen
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.services-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2em;
+    gap: 0 1.5em;
+}
+
+.service-wrapper
+{
+    width: 33%;
+}
+
+.service-summary
+{
+    padding: 2em 4.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px dashed;
+}
+
+.service-text
+{
+    margin-top: 1em;
+    font-size: 1.7em;
+}
+
+.service-image
+{
+    width: 5em;
+}
+
+.service-desciption-text
+{
+    font-size: 0.85em;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.design-process-screen-top
+{
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 4em;
+    gap: 2em;
+}
+
+.design-process-title
+{
+    font-size: 4em;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: var(--design-color);
+    padding: 0 2em;
+}
+
+.design-processes-wrapper
+{
+    padding: 0 5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.process-wrapper
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em 0;
+    height: 33%;
+}
+
+.process-title-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding-left: 8em;
+}
+
+.process-title
+{
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.process-description-wrapper
+{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 4em; 
+}
+
+.process-logo
+{
+    width: 8em;
+    height: 8em;
+}
+
+.process-description
+{
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.logo-large
+{
+    width: 10em;
+    height: 10em;
+}
+
+.design-process-screen-bottom
+{
+    background-color: var(--design-color); 
+    padding: 4em 0;
+    display: flex;
+    flex-direction: column;
+    height: 135vh;
+}
+
+.design-processes-wrapper
+{
+    gap: 2em;
+    height: 100%;
+}
+
+.process-wrapper-bottom
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 33%;
+}
+
+.process-title-wrapper-bottom
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    padding: 2em 0;
+}
+
+.process-description-wrapper-bottom
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 4em; 
+}
+
+.get-quotation-screen
+{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-quotation-wrapper
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-quotation-title
+{
+    position: relative;
+    display: flex;
+    font-size: 2em;
+    left: 5em;
+}
+
+.get-quotation-title:after
+{
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 2px;
+    right: 16em;
+    width: 15em;
+    top: 0.75em;
+    border-radius: 10px;
+}
+
+.get-quotation-button
+{
+    position: relative;
+    padding: 1em 2em;
+    background-color: white;
+    border-radius: 1em;
+    top: -1em;
+    right: -20em;
+    transition: 0.3s ease-in-out;
+}
+
+.get-quotation-button:hover
+{
+    background-color: black;
+    color: white;
+}

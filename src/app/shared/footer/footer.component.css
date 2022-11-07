@@ -1,0 +1,140 @@
+footer
+{
+    background-color: #696256;
+    bottom: 0;
+    width: 100%;
+    height: 12em;
+    padding: 2em 0;
+}
+
+.footer-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo
+{
+    justify-content: center;
+}
+
+.footer-logo img
+{
+    width: 120px;
+}
+
+.footer-section-wrapper
+{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.section-title
+{
+    justify-content: start;
+    font-size: 20px;
+}
+
+.footer-social
+{
+    display: flex; 
+}
+
+.footer-social-icon
+{
+    display: flex;
+    margin: 0 10px;
+    width: 30px;
+}
+
+.footer-connect-section
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    border-right: solid 0.5px;
+    height: 100px;
+}
+
+.footer-connect-section p
+{
+    margin-top: 10px;
+}
+
+.footer-logo a img
+{
+    width: 200px;
+}
+
+.footer-affiliated-section
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    border-right: solid 0.5px;
+    height: 100px
+}
+
+
+
+.footer-affiliated-logo
+{
+    display: flex;
+}
+
+.footer-getintouch-section
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    height: 100px;
+}
+
+.getintouch-text 
+{
+    margin-left: 20px;
+    font-size: 10px;
+}
+
+.footer-affiliated-logo img
+{
+    width: 50px;
+    margin: 0 10px;
+}
+
+.footer-bottom
+{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.footer-copyright
+{
+    font-size: 10px;
+}
+
+.footer-getintouch-section button
+{
+    font-size: 10px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-getintouch-section button:hover
+{
+    background-color: black;
+    color: white;
+    transition: 0.3s ease-in-out;
+}

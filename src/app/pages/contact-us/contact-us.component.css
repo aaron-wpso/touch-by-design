@@ -1,0 +1,260 @@
+.contact-us-banner-wrapper
+{
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url("/assets/images/contact-us-banner.jpg");
+}
+
+.contact-us-banner
+{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.banner-title
+{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.get-in-touch-screen
+{
+    height: 140vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contact-info-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 100%;
+    background-image: url("/assets/images/black-background.jpg");
+    padding: 2em 6em;
+    justify-content: center;
+}
+
+.contact-info-wrapper p
+{
+    color: white;
+}
+
+
+.contact-info-title
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    padding: 1em 0;
+}
+
+.company-name
+{
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    font-size: 1.5em;
+}
+
+.address-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em 0;
+}
+
+.info-wrapper
+{
+    display: flex;
+    width: 50%;
+    gap: 4em;
+    padding: 2em 0;
+}
+
+.info-title-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.info-content-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.social-media-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em 0;
+}
+
+.social-media-title
+{
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    font-size: 1.5em;
+}
+
+.social-media-icons-wrapper
+{
+    display: flex;
+    gap: 2em;
+}
+
+.social-icon
+{
+    width: 2em;
+    height: 2em;
+}
+
+.form-container
+{
+    position: absolute;
+    height: 100%;
+    right: 4%;
+    width: 55%;
+    background-color: #f5f5f5;
+    padding: 2em 4em;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.form
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.form-title-wrapper
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-title-primary
+{
+    font-size: 2.5em;
+}
+
+.form-title-secondary
+{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    padding: 0.5em;
+}
+
+.form-inputs-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1em;
+}
+
+.form-input-group
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.form-input
+{
+    width: 50%;
+    box-shadow: 0px 2px 4px gray;
+    border: none;
+    height: 100%;
+    outline: none;
+    margin: 0.2em 0;
+    padding: 0.5em;
+    border-radius: 10px;
+}
+
+.select-wrapper
+{
+    width: 50%;
+    box-shadow: 0px 2px 4px gray;
+    border: none;
+    height: 100%;
+    outline: none;
+    margin: 0.2em 0;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.select-wrapper select
+{
+    border: none;
+    height: 100%;
+    outline: none;
+    width: 100%;
+    appearance: none;
+    border: none;
+    background-color: white;
+}
+
+.select-wrapper::after
+{
+    content: "";
+    position: relative;
+    right: 1em;
+    top: 50%;
+    border-top: 8px solid black;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+}
+
+.form-textarea
+{
+    width: 100%;
+    box-shadow: 0px 2px 4px gray;
+    border: none;
+    height: 100%;
+    outline: none;
+    margin: 0.2em 0;
+    padding: 0.5em;
+    border-radius: 10px;
+}
+
+.submit-button
+{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em 1.5em;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+    transition: 0.3s ease-in-out;
+}
+
+.submit-button:hover
+{
+    background-color: white;
+    color: black;
+}

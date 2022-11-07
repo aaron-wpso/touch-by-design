@@ -1,0 +1,11 @@
+<div class="portfolio-container">
+    <p class="porfolio-title">PORTFOLIO</p>
+    <div class="projects">
+        <div class="wrapper">
+            <div class="project-wrapper" *ngFor="let portfolio of portfolioData">
+                <img src="{{portfolio.projectThumbnail}}" class="project-thumbnail" [routerLink]="['/portfolio', portfolio.projectName]">
+                <p class="project-name" [routerLink]="['/portfolio', portfolio.projectName]">{{portfolio.projectName}}</p>
+            </div>
+        </div> 
+    </div>
+</div>
