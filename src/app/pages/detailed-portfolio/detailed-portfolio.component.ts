@@ -29,6 +29,8 @@ export class DetailedPortfolioComponent implements OnInit {
       });
       this.items = this.portfolioData[0].projectImages.map(item => new ImageItem({src: item, thumb: item}));
     }
+
+    this.gallery.ref().load(this.items);
   }
 
 }
