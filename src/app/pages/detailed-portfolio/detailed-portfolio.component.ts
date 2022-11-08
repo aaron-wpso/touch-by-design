@@ -17,20 +17,28 @@ export class DetailedPortfolioComponent implements OnInit {
   getPortfolioName: any;
   portfolioData: any;
   items: GalleryItem[];
+  firstIndex: any;
 
   ngOnInit(): void 
   {
-    this.getPortfolioName = this.param.snapshot.paramMap.get('projectName');
-    if(this.getPortfolioName)
-    {
-      this.portfolioData = this.service.portfolioDetails.filter((value) => 
+    this.param.params.subscribe(routeParams => {
+      this.getPortfolioName = this.param.snapshot.paramMap.get('projectName');
+    
+      if(this.getPortfolioName)
       {
-        return value.projectName == this.getPortfolioName
-      });
-      this.items = this.portfolioData[0].projectImages.map(item => new ImageItem({src: item, thumb: item}));
-    }
+        this.portfolioData = this.service.portfolioDetails.filter((value) => 
+        {
+          return value.projectName == this.getPortfolioName;
+        });
+        this.items = this.portfolioData[0].projectImages.map(item => new ImageItem({src: item, thumb: item}));
+      }
+      this.firstIndex = this.items.findIndex((x) => x.data.src === this.portfolioData[0].projectThumbnail);
 
-    this.gallery.ref().load(this.items);
+      this.gallery.ref().load(this.items); 
+      this.gallery.ref().set(this.firstIndex);
+
+      const header= document.getElementById('#header');
+      header.scrollIntoView();
+    });
   }
-
 }

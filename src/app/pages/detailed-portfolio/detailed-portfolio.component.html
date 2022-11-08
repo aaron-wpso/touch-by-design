@@ -1,19 +1,31 @@
-<div class="detailed-portfolio-container">
-    <div class="detailed-portfolio-banner-wrapper">
-        <div class="detailed-portfolio-banner">
-            <p class="banner-title">{{portfolioData[0].projectName.toUpperCase()}}</p>
-        </div>
-    </div>
-    <div class="detailed-portfolio-screen">
-        <div class="images-wrapper">
-            <gallery gallerize [items]="items" class="detailed-portfolio-gallery"></gallery>
-        </div>
-        <div class="description-wrapper">
-            <p class="project-name">{{portfolioData[0].projectName.toUpperCase()}}</p>
-            <div>
-                <p class="location-title">Location</p>
-                <p class="location-name">{{portfolioData[0].projectLocation}}</p>
+<div id="#header">
+    <div class="detailed-portfolio-container">
+        <div class="detailed-portfolio-banner-wrapper">
+            <div class="detailed-portfolio-banner">
+                <p class="banner-title">{{portfolioData[0].projectName.toUpperCase()}}</p>
             </div>
+        </div>
+        <div class="detailed-portfolio-screen">
+            <div class="images-wrapper">
+                <gallery gallerize
+                    class="detailed-portfolio-gallery"
+                    [items]="items"  
+                    [counter]="false" 
+                    [thumb]="false" 
+                    [dots]="false">
+                </gallery> 
+            </div>
+            <div class="description-wrapper">
+                <p class="project-name">{{portfolioData[0].projectName.toUpperCase()}}</p>
+                <div>
+                    <p class="location-title">Location</p>
+                    <p class="location-name">{{portfolioData[0].projectLocation}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="other-projects-wrapper">
+            <p class="other-projects-title">OTHER PROJECTS</p>
+            <app-other-projects></app-other-projects>
         </div>
     </div>
 </div>

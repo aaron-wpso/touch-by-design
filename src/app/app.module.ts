@@ -21,6 +21,7 @@ import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { FloatingButtonComponent } from './shared/floating-button/floating-button.component';
 import { DetailedPortfolioComponent } from './pages/detailed-portfolio/detailed-portfolio.component';
+import { OtherProjectsComponent } from './shared/other-projects/other-projects.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { DetailedPortfolioComponent } from './pages/detailed-portfolio/detailed-
     PortfolioComponent,
     FloatingButtonComponent,
     DetailedPortfolioComponent,
+    OtherProjectsComponent,
   ],
   imports: [
     BrowserModule,

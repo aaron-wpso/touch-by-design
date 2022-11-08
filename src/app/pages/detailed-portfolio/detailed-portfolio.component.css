@@ -47,25 +47,20 @@
     align-items: center;
 }
 
+.project-thumbnail
+{
+    width: 70%;
+    height: 80;
+    padding: 1em; 
+    margin: 4em;
+}
+
 .detailed-portfolio-gallery
 {
-    height: 100%;
-    width: 80%;
+    height: 80%;
+    width: 70%;
     padding: 1em; 
-    margin: 1em;
-}
-
-.side-images-wrapper
-{
-    display: flex;
-    justify-content: center;
-    
-}
-
-.side-image
-{
-    padding: 0 3em;
-    width: 20%;
+    margin: 4em;
 }
 
 .description-wrapper
@@ -102,4 +97,30 @@
 {
     background-color: white;
     color: black;
+}
+
+.other-projects-wrapper
+{
+    margin-top: 2em;
+}
+
+.other-projects-title
+{
+    margin-left: 2em;
+    padding-top: 0.5em;
+    letter-spacing: 0.25em;
+    font-size: 3em;
+    position: relative;
+}
+
+.other-projects-title:after
+{
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 2px;
+    left: 13em;
+    width: 45%;
+    top: 1.25em;
+    border-radius: 10px;
 }

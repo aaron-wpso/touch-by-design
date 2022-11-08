@@ -13,6 +13,7 @@ export class PortfolioDetailsService {
       projectName: "Kensington Park",
       projectLocation: "Kensington Park Dr, Singapore",
       projectThumbnail:"assets/images/06_Completed Projects/8 Kensington Park 12-01/8.jpg",
+      isRecommendation: true,
       sideImages:[
         "assets/images/06_Completed Projects/8 Kensington Park 12-01/6.jpg",
         "assets/images/06_Completed Projects/8 Kensington Park 12-01/7.jpg"
@@ -46,6 +47,7 @@ export class PortfolioDetailsService {
       projectName: "Bartly Residence",
       projectLocation: "Lor How Sun, Singapore",
       projectThumbnail:"assets/images/06_Completed Projects/7A Lorong How Sun @ Bartley Residences/5.jpeg",
+      isRecommendation: false,
       sideImages:[
         "assets/images/06_Completed Projects/7A Lorong How Sun @ Bartley Residences/2.jpeg",
         "assets/images/06_Completed Projects/7A Lorong How Sun @ Bartley Residences/4.jpeg"
@@ -77,6 +79,7 @@ export class PortfolioDetailsService {
       projectName: "Lake Grande",
       projectLocation: "Jurong Lake Link, Singapore",
       projectThumbnail:"assets/images/06_Completed Projects/8 Lake Grande/5.jpeg",
+      isRecommendation: false,
       sideImages:[
         "assets/images/06_Completed Projects/8 Lake Grande/1.jpeg",
         "assets/images/06_Completed Projects/8 Lake Grande/2.jpeg"
@@ -102,6 +105,7 @@ export class PortfolioDetailsService {
       projectName: "The Asana",
       projectLocation: "17 Queen's Rd, Singapore",
       projectThumbnail:"assets/images/06_Completed Projects/17 Queens Road @ The Asana/4.jpeg",
+      isRecommendation: true,
       sideImages:[
         "assets/images/06_Completed Projects/17 Queens Road @ The Asana/1.jpeg",
         "assets/images/06_Completed Projects/17 Queens Road @ The Asana/2.jpeg"
@@ -127,6 +131,7 @@ export class PortfolioDetailsService {
       projectName: "Trevista",
       projectLocation: "25 Lorong 3 Toa Payoh, Singapore",
       projectThumbnail:"assets/images/06_Completed Projects/25 Lorong 3 Toa Payoh @ Trevista/2.jpeg",
+      isRecommendation: false,
       sideImages:[
         "assets/images/06_Completed Projects/25 Lorong 3 Toa Payoh @ Trevista/4.jpeg",
         "assets/images/06_Completed Projects/25 Lorong 3 Toa Payoh @ Trevista/7.jpeg",
@@ -159,6 +164,7 @@ export class PortfolioDetailsService {
       projectName: "The Trilinq",
       projectLocation: "28 Jln Lempeng, Singapore",
       projectThumbnail:"assets/images/06_Completed Projects/28 The Trilinq/1.jpeg",
+      isRecommendation: true,
       sideImages:[
         "assets/images/06_Completed Projects/28 The Trilinq/2.jpeg",
         "assets/images/06_Completed Projects/28 The Trilinq/4.jpeg",
@@ -183,6 +189,7 @@ export class PortfolioDetailsService {
       projectName: "Inz Residence",
       projectLocation: "68 Choa Chu Kang, Singapore",
       projectThumbnail:"assets/images/06_Completed Projects/68 CCK @ Inz Residence/1.jpeg",
+      isRecommendation: false,
       sideImages:[
         "assets/images/06_Completed Projects/68 CCK @ Inz Residence/2.jpeg",
         "assets/images/06_Completed Projects/68 CCK @ Inz Residence/4.jpeg"
@@ -208,6 +215,7 @@ export class PortfolioDetailsService {
       projectName: "Bukit Batok",
       projectLocation: "Bukit Batok, Singapore",
       projectThumbnail:"assets/images/06_Completed Projects/296C Bukit Batok/IMG_8007.jpg",
+      isRecommendation: false,
       sideImages:[
         "assets/images/06_Completed Projects/296C Bukit Batok/IMG_8008.jpg",
         "assets/images/06_Completed Projects/296C Bukit Batok/IMG_8009.jpg"
@@ -238,6 +246,7 @@ export class PortfolioDetailsService {
       projectName: "Pasir Ris One",
       projectLocation: "530 Pasir Ris Dr 1, Singapore",
       projectThumbnail:"assets/images/06_Completed Projects/530A Pasir Ris One/3.jpeg",
+      isRecommendation: true,
       sideImages:[
         "assets/images/06_Completed Projects/530A Pasir Ris One/5.jpeg",
         "assets/images/06_Completed Projects/530A Pasir Ris One/6.jpeg"
@@ -269,6 +278,7 @@ export class PortfolioDetailsService {
       projectName: "Sumang Lane",
       projectLocation: "Sumang Lane, Singapore",
       projectThumbnail:"assets/images/06_Completed Projects/Blk 231B Sumang Lane/IMG_0334.JPG",
+      isRecommendation: false,
       sideImages:[
         "assets/images/06_Completed Projects/Blk 231B Sumang Lane/IMG_0335.JPG",
         "assets/images/06_Completed Projects/Blk 231B Sumang Lane/IMG_0336.JPG"
