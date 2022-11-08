@@ -47,25 +47,16 @@
     align-items: center;
 }
 
-.project-thumbnail
-{
-    width: 70%;
-    height: 80;
-    padding: 1em; 
-    margin: 4em;
-}
-
 .detailed-portfolio-gallery
 {
     height: 80%;
     width: 70%;
     padding: 1em; 
-    margin: 4em;
 }
 
 .description-wrapper
 {
-    height: 20%;
+    height: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
